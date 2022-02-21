@@ -161,7 +161,7 @@ while True:
     ball_y = ball_y + ball_dy
 
     screen.blit(text_points, (30, 50))
-    screen.blit(text_life, ((WIDTH/2) + 50, 50))
+    screen.blit(text_life, (WIDTH/2 + 50, 50))
 
     if life == 0:
         quit()
